@@ -5,10 +5,9 @@ body {
 }
 
 
-
-
-
-
+#projects::-webkit-scrollbar {
+  display: none;
+}
 
 
 
