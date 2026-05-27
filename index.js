@@ -36,15 +36,7 @@ async function displayProjects() {
   }
 
   const response = await fetch(
-    "https://api.github.com/users/jishnukarri/repos",
-    {
-      method: "GET",
-      headers: {
-        Accept: "application/vnd.github+json",
-        Authorization: "Bearer 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",
-        "X-GitHub-Api-Version": "2026-03-10",
-      },
-    },
+    "https://api.github.com/users/jishnukarri/repos"
   );
 
   if (!response.ok) {
